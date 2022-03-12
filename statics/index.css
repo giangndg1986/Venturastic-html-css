@@ -201,7 +201,8 @@ html {
 }
 
 @media (min-width: 1025px) {
-  .main-who-we-are .main-welcome {
+  .main-who-we-are,
+  .main-welcome {
     --sht-v-pdg-tp: 130;
     --sht-v-pdg-btm: 130;
     --sht-v-pdg-rt: 130;
