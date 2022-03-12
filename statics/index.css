@@ -193,6 +193,11 @@ html {
   .sht-v-gx {
     --sht-v-gx: 30;
   }
+  .footer-second-area,
+  .footer-nav,
+  .main-nav {
+    display: none;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -219,5 +224,11 @@ html {
   }
   .sht-v-gx {
     --sht-v-gx: 75;
+  }
+  
+  .footer-second-area,
+  .footer-nav,
+  .main-nav {
+    display: block;
   }
 }
