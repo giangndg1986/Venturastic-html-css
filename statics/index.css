@@ -1,0 +1,223 @@
+html {
+  font-family: "PT Serif", sans-serif;
+  color: #4d4d4d;
+}
+.footer-navbar_brand_logo {
+  filter: brightness(0) invert(1);
+}
+.footer-navbar_brand_logo {
+  width: 100px;
+}
+.main-navbar_brand_logo {
+  width: 140px;
+}
+.font-family-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.main-promo {
+  background: url(./images/banner.png);
+  /* New height = New width / (Original width / Original height) */
+  height: calc(100vw / (1920 / 800));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main-promo-sub-head,
+.main-promo-head {
+  color: #fff;
+}
+.font-family-unna {
+  font-family: "Unna", serif;
+}
+.main-color {
+  color: #4d4d4d;
+}
+.second-color {
+  color: #009cc4;
+}
+
+.third-color {
+  color: #808080;
+}
+
+.fourth-color {
+  color: #313335;
+}
+.fifth-color {
+  color: #fff;
+}
+.sixth-color {
+  color: #696767;
+}
+.main-nav_item_link:hover {
+  color: #009cc4;
+  text-shadow: 0.5px 0px #009cc4;
+}
+
+/* .main-welcome_photo {
+    height: calc(530 / (485 / 401) * 1px);
+  } */
+
+.main-who-we-are_lead,
+.main-welcome_lead {
+  letter-spacing: 1.2px;
+}
+.main-who-we-are_skill_item_icon,
+.main-welcome_message_v-bar {
+  background-color: #009cc4;
+}
+.main-who-we-are_btn,
+.main-welcome_btn {
+  letter-spacing: 3px;
+}
+
+.bg-main {
+  background-color: #f3f0e9;
+}
+
+.bg-second {
+  background-color: #39363d;
+}
+.bg-3rd {
+  background-color: #181818;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.main-philosophy_item_message {
+  grid-column: 1 / span 2;
+}
+
+@media (min-width: 314px) {
+  .main-welcome,
+  .main-who-we-are,
+  .main-our-staff,
+  .main-footer {
+    --sht-v-pdg-tp: 30;
+    --sht-v-pdg-btm: 30;
+    --sht-v-pdg-rt: 30;
+    --sht-v-pdg-lt: 30;
+  }
+  .main-footer,
+  .main-header {
+    text-align: center;
+  }
+  .footer-navbar_brand_logo,
+  .main-navbar_brand_logo {
+    padding-bottom: 10px;
+  }
+
+  .main-promo-head {
+    --sht-v-hdg: 18;
+    --sht-v-le-ht: 20;
+    --sht-v-mgn-btm: 8;
+  }
+  .main-promo-sub-head {
+    --sht-v-fs: 14;
+  }
+  .sht-v-gx {
+    --sht-v-gx: 15;
+  }
+  .footer-second-area,
+  .footer-nav,
+  .main-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 459px) {
+  .main-welcome,
+  .main-who-we-are,
+  .main-our-staff,
+  .main-footer {
+    --sht-v-pdg-tp: 30;
+    --sht-v-pdg-btm: 30;
+    --sht-v-pdg-rt: 30;
+    --sht-v-pdg-lt: 30;
+  }
+  .main-footer,
+  .main-header {
+    text-align: center;
+  }
+  .footer-navbar_brand_logo,
+  .main-navbar_brand_logo {
+    padding-bottom: 10px;
+  }
+
+  .main-promo-head {
+    --sht-v-hdg: 32;
+    --sht-v-le-ht: 42;
+    --sht-v-mgn-btm: 10;
+  }
+  .main-promo-sub-head {
+    --sht-v-fs: 18;
+  }
+  .sht-v-gx {
+    --sht-v-gx: 30;
+  }
+  .footer-second-area,
+  .footer-nav,
+  .main-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .main-welcome,
+  .main-who-we-are,
+  .main-our-staff,
+  .main-footer {
+    --sht-v-pdg-tp: 30;
+    --sht-v-pdg-btm: 30;
+    --sht-v-pdg-rt: 30;
+    --sht-v-pdg-lt: 30;
+  }
+  .main-footer,
+  .main-header {
+    text-align: center;
+  }
+  .footer-navbar_brand_logo,
+  .main-navbar_brand_logo {
+    padding-bottom: 10px;
+  }
+  .main-promo-head {
+    --sht-v-hdg: 32;
+    --sht-v-le-ht: 42;
+    --sht-v-mgn-btm: 10;
+  }
+  .main-promo-sub-head {
+    --sht-v-fs: 18;
+  }
+  .sht-v-gx {
+    --sht-v-gx: 30;
+  }
+}
+
+@media (min-width: 1025px) {
+  .main-who-we-are .main-welcome {
+    --sht-v-pdg-tp: 130;
+    --sht-v-pdg-btm: 130;
+    --sht-v-pdg-rt: 130;
+    --sht-v-pdg-lt: 130;
+  }
+  .main-footer,
+  .main-our-staff {
+    --sht-v-pdg-tp: 65;
+    --sht-v-pdg-btm: 65;
+    --sht-v-pdg-rt: 130;
+    --sht-v-pdg-lt: 130;
+  }
+  .main-promo-head {
+    --sht-v-hdg: 62;
+    --sht-v-le-ht: 72;
+    --sht-v-mgn-btm: 40;
+  }
+  .main-promo-sub-head {
+    --sht-v-fs: 36;
+  }
+  .sht-v-gx {
+    --sht-v-gx: 75;
+  }
+}
