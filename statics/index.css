@@ -17,7 +17,7 @@ html {
 .main-promo {
   background: url(./images/banner.png);
   /* New height = New width / (Original width / Original height) */
-  height: calc(100vw / (1920 / 800));
+  height: calc(100vw / (1440 / 661));
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
